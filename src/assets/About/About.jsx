@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <section>
+      <section className="About">
         <h2>About Me</h2>
         <p>
           Hello! I'm a web development student passionate about creating
