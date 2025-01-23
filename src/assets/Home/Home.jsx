@@ -5,8 +5,10 @@ import Header from "./Header";
 function Home() {
   return (
     <>
-      <Navigation />
-      <Header />
+      <section className="Home" id="Home">
+        <Navigation />
+        <Header />
+      </section>
     </>
   );
 }
