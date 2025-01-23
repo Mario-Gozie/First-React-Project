@@ -12,4 +12,18 @@ function ProjectCard(props) {
   );
 }
 
+// PROPS DATA TYPE
+
+ProjectCard.protoTypes = {
+  title: PropTypes.string,
+  projectPosition: PropTypes.string,
+};
+
+// SETTING DEFAULT VALUES FOR PROPS
+
+ProjectCard.defaultProps = {
+  name: "X",
+  projectPosition: "Xposition",
+};
+
 export default ProjectCard;
