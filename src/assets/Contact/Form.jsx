@@ -1,6 +1,6 @@
 function Form() {
   return (
-    <form action="">
+    <form action="" className="Form">
       <label htmlFor="name" required>
         Name
       </label>
@@ -11,7 +11,7 @@ function Form() {
       <label htmlFor="message">Message</label>
       <textarea name="message" id=""></textarea>
 
-      <input type="submit" value="submit" />
+      <input type="submit" value="Send Message" />
     </form>
   );
 }

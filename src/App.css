@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* body {
+  height: 100%;
+} */
+
 .Home {
   height: 60vh;
   padding: 0;
@@ -11,7 +15,7 @@
 }
 
 nav {
-  height: 10%;
+  height: 15%;
   background-color: hsla(206, 88%, 13%, 0.788);
   display: flex;
   justify-content: center;
@@ -41,9 +45,10 @@ nav li a {
   align-items: center;
   color: rgb(255, 255, 255);
 }
+/* ABOUT */
 
 .About {
-  height: 50vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,12 +59,14 @@ nav li a {
   padding: 1rem 0;
 }
 
+/* PROJECT */
+
 .Projects {
-  height: 50vh;
+  height: auto;
   background-color: black;
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  padding: 1rem;
 }
 
 .Project-header-container {
@@ -71,7 +78,7 @@ nav li a {
 }
 
 .Projects-container {
-  height: 90%;
+  height: 85%;
   margin: 1rem 0;
   display: flex;
   justify-content: space-between;
@@ -102,4 +109,53 @@ nav li a {
 
 .Project-detail-container p {
   margin-top: 0.5rem;
+}
+
+/* CONTACT CSS */
+
+.Contact {
+  height: auto;
+  background-color: hsl(206, 37%, 20%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+}
+
+.Contact-header-container {
+  height: 5%;
+}
+
+.Form {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+input,
+textarea {
+  margin: 0.7rem 0;
+  width: 30rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+input {
+  height: 2rem;
+}
+
+textarea {
+  height: 10rem;
+}
+
+input[type="submit"] {
+  width: 8rem;
+  height: 4rem;
+  padding: 1rem;
+  background-color: hsl(193, 79%, 44%);
+  color: white;
 }
