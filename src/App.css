@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 
-/* body {
-  height: 100%;
-} */
-
 .Home {
-  height: 60vh;
+  height: 70vh;
   padding: 0;
   margin: 0;
 }
@@ -52,7 +48,7 @@ nav li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10rem;
+  padding: 4rem;
 }
 
 .About h2 {
@@ -152,10 +148,10 @@ textarea {
   height: 10rem;
 }
 
-input[type="submit"] {
-  width: 8rem;
-  height: 4rem;
-  padding: 1rem;
+button {
+  padding: 0.7rem 3rem;
   background-color: hsl(193, 79%, 44%);
   color: white;
+  border: none;
+  border-radius: 5px;
 }

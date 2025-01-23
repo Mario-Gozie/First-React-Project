@@ -11,7 +11,7 @@ function Form() {
       <label htmlFor="message">Message</label>
       <textarea name="message" id=""></textarea>
 
-      <input type="submit" value="Send Message" />
+      <button>Send Message</button>
     </form>
   );
 }
