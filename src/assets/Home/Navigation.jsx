@@ -1,8 +1,17 @@
-function Navigation() {
+function Navigation(props) {
+  const navList = props.navContent;
+
+  const allNav = navList.map((nav) => (
+    <li>
+      <a href="">{nav}</a>
+    </li>
+  ));
+
   return (
     <nav>
       <ul>
-        <li>
+        {allNav}
+        {/* <li>
           <a href="">Home</a>
         </li>
         <li>
@@ -14,7 +23,7 @@ function Navigation() {
         <li>
           {" "}
           <a href="">Contact</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
